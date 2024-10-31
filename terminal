@@ -1,0 +1,7 @@
+mkdir easeappoint-web
+cd easeappoint-web
+npm init -y
+npm install express mongoose dotenv bcryptjs jsonwebtoken cors
+npm install --save-dev nodemon
+mkdir public views routes controllers models config
+touch .env .gitignore server.js
